@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Armonía Market — Alimentos y Suplementos Fit Saludable</title>
+<meta name="description" content="Armonía Market: alimentos saludables y suplementos deportivos con envío a todo el país. Precios en pesos argentinos.">
+<link rel="canonical" href="https://armoniamarket.com.ar/">
+<meta property="og:site_name" content="Armonía Market">
+<meta property="og:title" content="Armonía Market — Alimentos y Suplementos Fit Saludable">
+<meta property="og:description" content="Alimentos saludables y suplementos deportivos con envío a todo el país. Precios en pesos argentinos.">
+<meta property="og:url" content="https://armoniamarket.com.ar/">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://armoniamarket.com.ar/logoarmonia.jpg">
+<link rel="icon" type="image/jpeg" href="logoarmonia.jpg">
+<link rel="preconnect" href="https://upload.wikimedia.org">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Saltar al contenido</a>
+
+<!-- HEADER -->
+<header class="site-header">
+  <div class="header-inner">
+    <a href="#inicio" class="brand">
+      <img src="logoarmonia.jpg" alt="Armonía Market" class="brand-logo">
+    </a>
+
+    <nav class="main-nav" id="mainNav">
+      <a href="#inicio">Inicio</a>
+      <a href="#productos">Productos</a>
+      <a href="#nosotros">Nosotros</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="cart-btn" id="cartToggle" aria-label="Abrir carrito de compras" aria-haspopup="dialog">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="9" cy="21" r="1"></circle>
+          <circle cx="19" cy="21" r="1"></circle>
+          <path d="M2.5 3h2l2.7 12.4a2 2 0 0 0 2 1.6h8.6a2 2 0 0 0 2-1.6L21.5 7H6"></path>
+        </svg>
+        <span class="cart-count" id="cartCount">0</span>
+      </button>
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- HERO -->
+  <section class="hero" id="inicio">
+    <div class="hero-inner">
+      <div class="hero-text">
+        <p class="eyebrow">Alimentos &amp; Suplementos Fit</p>
+        <h1>Nutrí tu <span class="accent">equilibrio</span>, potenciá tu energía</h1>
+        <p class="hero-desc">En Armonía Market encontrás alimentos saludables y suplementos deportivos seleccionados para acompañar tu rutina fit. Calidad natural, resultados reales.</p>
+        <div class="hero-cta">
+          <a href="#productos" class="btn btn-primary">Ver productos</a>
+          <a href="#nosotros" class="btn btn-ghost">Conocer más</a>
+        </div>
+        <ul class="hero-trust">
+          <li>🌱 100% natural</li>
+          <li>🚚 Envíos a todo el país</li>
+          <li>🔒 Compra segura</li>
+        </ul>
+      </div>
+
+      <div class="hero-carousel">
+        <div class="carousel" id="heroCarousel">
+          <div class="carousel-track" id="carouselTrack">
+            <div class="carousel-slide">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/4/47/Healthy_salad_bowl_%2842231145040%29.jpg" alt="Bowl de ensalada saludable" loading="eager">
+            </div>
+            <div class="carousel-slide">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Protein_shake.jpg/1280px-Protein_shake.jpg" alt="Batido proteico" loading="lazy">
+            </div>
+            <div class="carousel-slide">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Attractive_man_lifting_dumbbell_weight_for_exercise_in_fitness_gym.jpg/1280px-Attractive_man_lifting_dumbbell_weight_for_exercise_in_fitness_gym.jpg" alt="Entrenamiento con pesas" loading="lazy">
+            </div>
+            <div class="carousel-slide">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/d/db/Skinny-Fried-Egg-and-Avocado-Toast-Perfect-breakfast_%2835555668870%29.jpg" alt="Tostada de palta saludable" loading="lazy">
+            </div>
+            <div class="carousel-slide">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/d/d1/MixedNutsInGlassBowl.JPG" alt="Frutos secos variados" loading="lazy">
+            </div>
+          </div>
+
+          <button class="carousel-arrow prev" id="carouselPrev" aria-label="Imagen anterior">‹</button>
+          <button class="carousel-arrow next" id="carouselNext" aria-label="Imagen siguiente">›</button>
+
+          <div class="carousel-dots" id="carouselDots"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BENEFICIOS -->
+  <section class="benefits">
+    <div class="benefits-inner">
+      <div class="benefit">
+        <span class="benefit-icon">🌿</span>
+        <div>
+          <h3>Productos naturales</h3>
+          <p>Seleccionados por su calidad nutricional.</p>
+        </div>
+      </div>
+      <div class="benefit">
+        <span class="benefit-icon">🚚</span>
+        <div>
+          <h3>Envíos a todo el país</h3>
+          <p>Recibí tu pedido en la puerta de tu casa.</p>
+        </div>
+      </div>
+      <div class="benefit">
+        <span class="benefit-icon">💪</span>
+        <div>
+          <h3>Pensado para el fit life</h3>
+          <p>Alimentos y suplementos que acompañan tu entrenamiento.</p>
+        </div>
+      </div>
+      <div class="benefit">
+        <span class="benefit-icon">🔒</span>
+        <div>
+          <h3>Compra 100% segura</h3>
+          <p>Finalizá tu pedido de forma simple y confiable.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCTOS -->
+  <section class="products" id="productos">
+    <div class="products-inner">
+      <h2 class="section-title">Nuestros productos</h2>
+      <p class="section-subtitle">Elegí tu categoría y sumá lo que necesites a tu carrito.</p>
+
+      <div class="tabs" role="tablist" aria-label="Categorías de productos">
+        <button class="tab active" role="tab" aria-selected="true" data-category="alimentos">Alimentos</button>
+        <button class="tab" role="tab" aria-selected="false" data-category="suplementos">Suplementos Deportivos</button>
+      </div>
+
+      <div class="product-search">
+        <input type="search" id="productSearch" placeholder="Buscar producto por nombre..." aria-label="Buscar producto">
+      </div>
+
+      <div class="subtabs" id="subtabsRow" role="tablist" aria-label="Subcategorías"></div>
+
+      <div class="product-grid" id="productGrid">
+        <!-- Las tarjetas de producto se generan dinámicamente desde script.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- NOSOTROS -->
+  <section class="about" id="nosotros">
+    <div class="about-inner">
+      <div class="about-text">
+        <p class="eyebrow">Nuestra esencia</p>
+        <h2>Armonía entre alimentación y movimiento</h2>
+        <p>Creemos que una vida fit empieza con equilibrio: comer bien y moverte con energía. Por eso reunimos alimentos saludables y suplementos deportivos de calidad en un solo lugar, para que armar tu rutina sea simple.</p>
+      </div>
+      <div class="about-logo">
+        <img src="logoarmonia.jpg" alt="Isotipo Armonía Market">
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO / NEWSLETTER -->
+  <section class="contact" id="contacto">
+    <div class="contact-inner">
+      <h2>¿Tenés dudas sobre tu pedido?</h2>
+      <p>Escribinos y te ayudamos a elegir los productos ideales para tu objetivo.</p>
+      <a href="https://wa.me/5493816071455" target="_blank" rel="noopener" class="btn btn-primary">Hablar por WhatsApp</a>
+    </div>
+  </section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <img src="logoarmonia.jpg" alt="Armonía Market" class="footer-logo">
+      <p>Market saludable para tu vida fit.</p>
+      <a href="https://armoniamarket.com.ar" class="footer-domain">armoniamarket.com.ar</a>
+    </div>
+    <div class="footer-links">
+      <h4>Navegación</h4>
+      <a href="#inicio">Inicio</a>
+      <a href="#productos">Productos</a>
+      <a href="#nosotros">Nosotros</a>
+      <a href="#contacto">Contacto</a>
+    </div>
+    <div class="footer-links">
+      <h4>Contacto</h4>
+      <a href="mailto:hola@armoniamarket.com.ar">hola@armoniamarket.com.ar</a>
+      <a href="https://wa.me/5493816071455" target="_blank" rel="noopener">WhatsApp</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2026 Armonía Market. Todos los derechos reservados.</p>
+    <p class="credits">Fotos: Wikimedia Commons (CC BY / CC0) — imágenes de referencia, a reemplazar por fotos propias de producto.</p>
+  </div>
+</footer>
+
+<!-- CART DRAWER -->
+<div class="cart-overlay" id="cartOverlay"></div>
+<aside class="cart-drawer" id="cartDrawer" role="dialog" aria-label="Carrito de compras" aria-hidden="true">
+  <div class="cart-header">
+    <h2>Tu carrito</h2>
+    <button class="cart-close" id="cartClose" aria-label="Cerrar carrito">&times;</button>
+  </div>
+
+  <div class="cart-items" id="cartItems">
+    <p class="cart-empty" id="cartEmpty">Tu carrito está vacío. ¡Sumá algún producto!</p>
+  </div>
+
+  <div class="cart-footer">
+    <div class="cart-subtotal">
+      <span>Subtotal</span>
+      <strong id="cartSubtotal">$0</strong>
+    </div>
+    <button class="btn btn-primary btn-block" id="checkoutBtn">Finalizar compra</button>
+    <p class="cart-note">El pago se coordina por WhatsApp al finalizar tu pedido.</p>
+  </div>
+</aside>
+
+<div class="toast" id="toast"></div>
+
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

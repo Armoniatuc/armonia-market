@@ -1,0 +1,41 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "img/uploads"
+public_folder: "/img/uploads"
+
+publish_mode: simple
+
+collections:
+  - name: "productos"
+    label: "Productos"
+    files:
+      - name: "catalogo"
+        label: "Catálogo de productos"
+        file: "content/products.json"
+        fields:
+          - label: "Productos"
+            name: "products"
+            widget: "list"
+            summary: "{{fields.name}} — {{fields.price}}"
+            fields:
+              - { label: "Nombre", name: "name", widget: "string" }
+              - { label: "Precio (ARS)", name: "price", widget: "number", value_type: "int" }
+              - { label: "Foto del producto", name: "img", widget: "image" }
+              - { label: "Características / descripción", name: "desc", widget: "text" }
+              - label: "Categoría"
+                name: "category"
+                widget: "select"
+                options:
+                  - { label: "Alimentos", value: "alimentos" }
+                  - { label: "Suplementos Deportivos", value: "suplementos" }
+              - label: "Subcategoría"
+                name: "sub"
+                widget: "string"
+                hint: "Ej: Energía y Vitalidad, Snacks y Dulces, Control de Peso... (tiene que decir igual que en algún producto existente para que agrupe bien)"
+              - label: "ID interno"
+                name: "id"
+                widget: "string"
+                hint: "No lo cambies en productos existentes. Para uno nuevo, escribí algo simple sin espacios, ej: sp-productonuevo"
+                required: false

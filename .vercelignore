@@ -1,0 +1,13 @@
+# Carpetas de fotos de trabajo (no van al sitio publicado)
+productos*
+Productos subidos a la página
+catalogo1
+armoniamarket-preview 2
+
+# Archivos sueltos que no forman parte del sitio
+armonia-market-netlify.zip
+WhatsApp Image 2026-07-23 at 15.01.50 (1).jpeg
+Claude.MD
+CLAUDE.md
+.DS_Store
+**/.DS_Store

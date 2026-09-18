@@ -1,0 +1,13 @@
+.DS_Store
+**/.DS_Store
+
+# Carpetas de fotos de trabajo (no forman parte del sitio publicado)
+productos*
+Productos subidos a la página
+catalogo1
+Ultimos productos
+
+# Archivos sueltos que no forman parte del sitio
+armonia-market-netlify*.zip
+WhatsApp Image*.jpeg
+Claude.MD

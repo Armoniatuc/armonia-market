@@ -1,0 +1,841 @@
+{
+  "products": [
+    {
+      "id": "al-frutossecos",
+      "category": "alimentos",
+      "sub": "Secos y Semillas",
+      "name": "Mix de Frutos Secos Premium 500g",
+      "desc": "Almendras, nueces, castañas de cajú y pasas de uva sin sal ni azúcar agregada.",
+      "price": 6900,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/d/d1/MixedNutsInGlassBowl.JPG"
+    },
+    {
+      "id": "al-quinoabowl",
+      "category": "alimentos",
+      "sub": "Comidas Preparadas",
+      "name": "Bowl de Quinoa y Vegetales",
+      "desc": "Quinoa real, vegetales frescos y frutos secos. Listo para disfrutar.",
+      "price": 5400,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/6/64/Healthy_quinoa_salad_with_dried_fruit.jpg"
+    },
+    {
+      "id": "al-ensaladafresca",
+      "category": "alimentos",
+      "sub": "Comidas Preparadas",
+      "name": "Ensalada Fresca de Estación",
+      "desc": "Hojas verdes, vegetales de estación y semillas. Fresca y liviana.",
+      "price": 4200,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/4/47/Healthy_salad_bowl_%2842231145040%29.jpg"
+    },
+    {
+      "id": "al-tostadapalta",
+      "category": "alimentos",
+      "sub": "Comidas Preparadas",
+      "name": "Tostada Integral de Palta y Huevo",
+      "desc": "Pan integral, palta natural y huevo. Ideal para un desayuno fit.",
+      "price": 3800,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/d/db/Skinny-Fried-Egg-and-Avocado-Toast-Perfect-breakfast_%2835555668870%29.jpg"
+    },
+    {
+      "id": "al-aceitecoco",
+      "category": "alimentos",
+      "sub": "Aceites y Untables",
+      "name": "The Coco Aceite de Coco Neutro 360cc",
+      "desc": "Aceite de coco neutro, ideal para cocinar y para uso cosmético.",
+      "price": 8500,
+      "img": "img/alimentos/aceite-coco-thecoco.jpg"
+    },
+    {
+      "id": "al-lechecoco",
+      "category": "alimentos",
+      "sub": "Líquidos y Bebidas",
+      "name": "Tratenfu Leche de Coco Original 1L",
+      "desc": "Bebida vegetal a base de coco, como hecha en casa. Fortificada con calcio y vitaminas E, A, D2, B2 y B12. Libre de gluten, sin TACC.",
+      "price": 5800,
+      "img": "img/alimentos/leche-coco-tratenfu.jpg"
+    },
+    {
+      "id": "al-feculamandioca",
+      "category": "alimentos",
+      "sub": "Despensa",
+      "name": "Femag Fécula de Mandioca 1kg",
+      "desc": "Fécula de mandioca libre de gluten. Industria argentina.",
+      "price": 3000,
+      "img": "img/alimentos/femag-fecula-mandioca.jpg"
+    },
+    {
+      "id": "al-aceitecoconeutro-entrenuts",
+      "category": "alimentos",
+      "sub": "Aceites y Untables",
+      "name": "Entrenuts Aceite de Coco Neutro 360cc",
+      "desc": "Sin sabor ni aroma. Vegano, sin gluten y 100% natural.",
+      "price": 8500,
+      "img": "img/alimentos/entrenuts-aceite-coco-neutro.jpg"
+    },
+    {
+      "id": "al-aceitecocovirgen",
+      "category": "alimentos",
+      "sub": "Aceites y Untables",
+      "name": "Entrenuts Aceite de Coco Virgen 200cc",
+      "desc": "Primer prensado en frío. Vegano, sin gluten y 100% natural.",
+      "price": 6000,
+      "img": "img/alimentos/entrenuts-aceite-coco-virgen.jpg"
+    },
+    {
+      "id": "al-mixfrutossecos-granel",
+      "category": "alimentos",
+      "sub": "Secos y Semillas",
+      "name": "Armonía Mix de Frutos Secos (a granel)",
+      "desc": "Selección de frutos secos surtidos de Armonía Market.",
+      "price": 7000,
+      "img": "img/alimentos/armonia-mix-frutos-secos.jpg"
+    },
+    {
+      "id": "al-sesamo",
+      "category": "alimentos",
+      "sub": "Secos y Semillas",
+      "name": "Armonía Sésamo (a granel)",
+      "desc": "Semillas de sésamo a granel.",
+      "price": 2500,
+      "img": "img/alimentos/armonia-sesamo-lino.jpg"
+    },
+    {
+      "id": "al-lino",
+      "category": "alimentos",
+      "sub": "Secos y Semillas",
+      "name": "Armonía Lino (a granel)",
+      "desc": "Semillas de lino a granel.",
+      "price": 2500,
+      "img": "img/alimentos/armonia-sesamo-lino.jpg"
+    },
+    {
+      "id": "al-chia",
+      "category": "alimentos",
+      "sub": "Secos y Semillas",
+      "name": "Armonía Chía (a granel)",
+      "desc": "Semillas de chía a granel.",
+      "price": 3500,
+      "img": "img/alimentos/armonia-chia.jpg"
+    },
+    {
+      "id": "al-mixsemillas",
+      "category": "alimentos",
+      "sub": "Secos y Semillas",
+      "name": "Armonía Mix de Semillas (a granel)",
+      "desc": "Mix de semillas (lino, sésamo y girasol) a granel.",
+      "price": 3000,
+      "img": "img/alimentos/armonia-mix-semillas.jpg"
+    },
+    {
+      "id": "al-ciruelaspasas",
+      "category": "alimentos",
+      "sub": "Secos y Semillas",
+      "name": "Armonía Ciruelas Pasas (a granel)",
+      "desc": "Ciruelas deshidratadas a granel.",
+      "price": 4500,
+      "img": "img/alimentos/armonia-ciruelas-pasas.jpg"
+    },
+    {
+      "id": "al-orejones",
+      "category": "alimentos",
+      "sub": "Secos y Semillas",
+      "name": "Armonía Orejones (a granel)",
+      "desc": "Fruta deshidratada a granel.",
+      "price": 5500,
+      "img": "img/alimentos/armonia-orejones.jpg"
+    },
+    {
+      "id": "al-manichocolate",
+      "category": "alimentos",
+      "sub": "Snacks y Dulces",
+      "name": "Armonía Maní con Chocolate (a granel)",
+      "desc": "Maní bañado en chocolate, a granel.",
+      "price": 5000,
+      "img": "img/alimentos/armonia-mani-chocolate.jpg"
+    },
+    {
+      "id": "al-chipschocolate",
+      "category": "alimentos",
+      "sub": "Snacks y Dulces",
+      "name": "Armonía Chips de Chocolate (a granel)",
+      "desc": "Chips de chocolate a granel, ideales para repostería.",
+      "price": 6500,
+      "img": "img/alimentos/armonia-chips-chocolate.jpg"
+    },
+    {
+      "id": "al-cacaoamargo",
+      "category": "alimentos",
+      "sub": "Despensa",
+      "name": "Armonía Cacao Amargo en Polvo (a granel)",
+      "desc": "Cacao amargo en polvo a granel.",
+      "price": 5500,
+      "img": "img/alimentos/armonia-cacao-amargo.jpg"
+    },
+    {
+      "id": "al-cocorallado",
+      "category": "alimentos",
+      "sub": "Despensa",
+      "name": "Armonía Coco Rallado (a granel)",
+      "desc": "Coco rallado a granel.",
+      "price": 4000,
+      "img": "img/alimentos/armonia-coco-rallado.jpg"
+    },
+    {
+      "id": "al-almendras",
+      "category": "alimentos",
+      "sub": "Secos y Semillas",
+      "name": "Armonía Almendras (a granel)",
+      "desc": "Almendras a granel.",
+      "price": 9000,
+      "img": "img/alimentos/armonia-almendras.jpg"
+    },
+    {
+      "id": "al-mixfrutal",
+      "category": "alimentos",
+      "sub": "Secos y Semillas",
+      "name": "Armonía Mix Frutal (a granel)",
+      "desc": "Mix de maní, castañas de cajú y pasas de uva a granel.",
+      "price": 7000,
+      "img": "img/alimentos/armonia-mix-frutal.jpg"
+    },
+    {
+      "id": "al-nuecesmariposa",
+      "category": "alimentos",
+      "sub": "Secos y Semillas",
+      "name": "Armonía Nueces Mariposa (a granel)",
+      "desc": "Nueces mariposa a granel.",
+      "price": 8500,
+      "img": "img/alimentos/armonia-nueces-mariposa.jpg"
+    },
+    {
+      "id": "al-mixmani",
+      "category": "alimentos",
+      "sub": "Secos y Semillas",
+      "name": "Armonía Mix de Maní (a granel)",
+      "desc": "Mix de maní y frutos secos a granel.",
+      "price": 4500,
+      "img": "img/alimentos/armonia-mix-mani.jpg"
+    },
+    {
+      "id": "al-girasolpelado",
+      "category": "alimentos",
+      "sub": "Secos y Semillas",
+      "name": "Armonía Semillas de Girasol Peladas (a granel)",
+      "desc": "Semillas de girasol peladas a granel.",
+      "price": 3000,
+      "img": "img/alimentos/armonia-girasol-pelado.jpg"
+    },
+    {
+      "id": "al-granola",
+      "category": "alimentos",
+      "sub": "Secos y Semillas",
+      "name": "Armonía Granola con Frutos Secos (a granel)",
+      "desc": "Granola casera con frutos secos a granel.",
+      "price": 6000,
+      "img": "img/alimentos/armonia-granola.jpg"
+    },
+    {
+      "id": "al-yerbaroapipo",
+      "category": "alimentos",
+      "sub": "Tés e Infusiones",
+      "name": "Yerba Mate Róapipó Tradicional 500g",
+      "desc": "Yerba mate elaborada con palo. Producto orgánico.",
+      "price": 4500,
+      "img": "img/alimentos/yerba-roapipo-tradicional.jpg"
+    },
+    {
+      "id": "al-yerbadulcebeso",
+      "category": "alimentos",
+      "sub": "Tés e Infusiones",
+      "name": "Yerba Mate Dulce Beso Especial 500g",
+      "desc": "Yerba mate elaborada con palo, con más de 2 años de estacionamiento natural.",
+      "price": 5000,
+      "img": "img/alimentos/yerba-dulce-beso.jpg"
+    },
+    {
+      "id": "al-srisrighee",
+      "category": "alimentos",
+      "sub": "Aceites y Untables",
+      "name": "Sri Sri Cow's Pure Ghee (Manteca Clarificada) 300g",
+      "desc": "Manteca clarificada. Libre de gluten, sin TACC.",
+      "price": 12000,
+      "img": "img/alimentos/srisri-ghee.jpg"
+    },
+    {
+      "id": "al-mielaguadulce",
+      "category": "alimentos",
+      "sub": "Aceites y Untables",
+      "name": "Miel Apícola Agua Dulce 500g",
+      "desc": "Miel pura de Tucumán, producción apícola Agua Dulce.",
+      "price": 9000,
+      "img": "img/alimentos/miel-apicola-agua-dulce.jpg"
+    },
+    {
+      "id": "al-florjamaica",
+      "category": "alimentos",
+      "sub": "Tés e Infusiones",
+      "name": "Armonía Flor de Jamaica Deshidratada (a granel)",
+      "desc": "Flor de jamaica deshidratada a granel, para infusiones.",
+      "price": 4000,
+      "img": "img/alimentos/armonia-flor-jamaica.jpg"
+    },
+    {
+      "id": "al-diaveganchocmani",
+      "category": "alimentos",
+      "sub": "Snacks y Dulces",
+      "name": "D'iavegan Cookies Integrales con Avena, Chocolate y Maní 150g",
+      "desc": "Galletitas integrales dietéticas sin azúcar agregada. Sin gluten.",
+      "price": 4500,
+      "img": "img/alimentos/diavegan-cookies.jpg"
+    },
+    {
+      "id": "al-diaveganchoco",
+      "category": "alimentos",
+      "sub": "Snacks y Dulces",
+      "name": "D'iavegan Cookies Integrales con Avena y Coco Rallado 150g",
+      "desc": "Galletitas integrales dietéticas sin azúcar agregada. Sin gluten.",
+      "price": 4500,
+      "img": "img/alimentos/diavegan-cookies.jpg"
+    },
+    {
+      "id": "al-celienergyalfajor",
+      "category": "alimentos",
+      "sub": "Snacks y Dulces",
+      "name": "Celienergy Alfajor de Nuez 50g",
+      "desc": "Alfajor a base de harina de nuez relleno de dulce de leche. Libre de gluten, sin TACC.",
+      "price": 2500,
+      "img": "img/alimentos/celienergy-alfajor-nuez.jpg"
+    },
+    {
+      "id": "al-dayprotein",
+      "category": "alimentos",
+      "sub": "Snacks y Dulces",
+      "name": "Day Protein Alfajor Proteico Negro con Dulce de Leche 60g",
+      "desc": "Alfajor proteico, sin gluten.",
+      "price": 3000,
+      "img": "img/alimentos/dayprotein-alfajor-proteico.jpg"
+    },
+    {
+      "id": "al-mermeladaarandano",
+      "category": "alimentos",
+      "sub": "Aceites y Untables",
+      "name": "Cuarto Creciente Mermelada Dietética de Arándano 300g",
+      "desc": "Endulzada con stevia.",
+      "price": 5500,
+      "img": "img/alimentos/cuartocreciente-mermelada-arandano.jpg"
+    },
+    {
+      "id": "al-deluxelimon",
+      "category": "alimentos",
+      "sub": "Snacks y Dulces",
+      "name": "Deluxe Bañada de Arroz sabor Limón",
+      "desc": "Galleta de arroz bañada, sin gluten.",
+      "price": 3500,
+      "img": "img/alimentos/deluxe-banadas-arroz.jpg"
+    },
+    {
+      "id": "al-deluxechoconegro",
+      "category": "alimentos",
+      "sub": "Snacks y Dulces",
+      "name": "Deluxe Bañada de Arroz sabor Chocolate Negro",
+      "desc": "Galleta de arroz bañada, sin gluten.",
+      "price": 3500,
+      "img": "img/alimentos/deluxe-banadas-arroz.jpg"
+    },
+    {
+      "id": "al-deluxechocoblanco",
+      "category": "alimentos",
+      "sub": "Snacks y Dulces",
+      "name": "Deluxe Bañada de Arroz sabor Chocolate Blanco",
+      "desc": "Galleta de arroz bañada, sin gluten.",
+      "price": 3500,
+      "img": "img/alimentos/deluxe-banadas-arroz.jpg"
+    },
+    {
+      "id": "al-deluxeyogurfrutilla",
+      "category": "alimentos",
+      "sub": "Snacks y Dulces",
+      "name": "Deluxe Bañada de Arroz sabor Yogur Frutilla",
+      "desc": "Galleta de arroz bañada, sin gluten.",
+      "price": 3500,
+      "img": "img/alimentos/deluxe-banadas-arroz.jpg"
+    },
+    {
+      "id": "al-praatlima",
+      "category": "alimentos",
+      "sub": "Snacks y Dulces",
+      "name": "Praat Galletitas Rellenas sabor Lima 85g",
+      "desc": "Galletitas dulces sobre hojaldre rellenas, calidad italiana.",
+      "price": 4000,
+      "img": "img/alimentos/praat-rellenas.jpg"
+    },
+    {
+      "id": "al-praatframbuesa",
+      "category": "alimentos",
+      "sub": "Snacks y Dulces",
+      "name": "Praat Galletitas Rellenas sabor Frambuesa 85g",
+      "desc": "Galletitas dulces sobre hojaldre rellenas, calidad italiana.",
+      "price": 4000,
+      "img": "img/alimentos/praat-rellenas.jpg"
+    },
+    {
+      "id": "al-chocolatecolonial",
+      "category": "alimentos",
+      "sub": "Snacks y Dulces",
+      "name": "Chocolate Colonial Barra 70% Cacao Amargo Dietético 100g",
+      "desc": "Con stevia. Libre de gluten, sin TACC.",
+      "price": 6500,
+      "img": "img/alimentos/colonial-chocolate-70.jpg"
+    },
+    {
+      "id": "al-riskyditdulces",
+      "category": "alimentos",
+      "sub": "Snacks y Dulces",
+      "name": "Risky-Dit Galletas de Arroz Integral Dulces 100g",
+      "desc": "Sin gluten, sin TACC.",
+      "price": 3000,
+      "img": "img/alimentos/riskydit-galletas-arroz.jpg"
+    },
+    {
+      "id": "al-riskyditconsal",
+      "category": "alimentos",
+      "sub": "Snacks y Dulces",
+      "name": "Risky-Dit Galletas de Arroz Integral Con Sal 100g",
+      "desc": "Sin gluten, sin TACC.",
+      "price": 3000,
+      "img": "img/alimentos/riskydit-galletas-arroz.jpg"
+    },
+    {
+      "id": "al-riskyditsinsal",
+      "category": "alimentos",
+      "sub": "Snacks y Dulces",
+      "name": "Risky-Dit Galletas de Arroz Integral Sin Sal 100g",
+      "desc": "Sin gluten, sin TACC.",
+      "price": 3000,
+      "img": "img/alimentos/riskydit-galletas-arroz.jpg"
+    },
+    {
+      "id": "al-mayadevisalfina",
+      "category": "alimentos",
+      "sub": "Despensa",
+      "name": "Mayadevi Sal Marina Fina 500g",
+      "desc": "Industria argentina.",
+      "price": 3500,
+      "img": "img/alimentos/mayadevi-sal-fina.jpg"
+    },
+    {
+      "id": "al-mayadevisalgruesa",
+      "category": "alimentos",
+      "sub": "Despensa",
+      "name": "Mayadevi Sal Marina Gruesa Premium 500g",
+      "desc": "Pura y natural.",
+      "price": 3500,
+      "img": "img/alimentos/mayadevi-sal-gruesa.jpg"
+    },
+    {
+      "id": "al-allricerebozadorconsal",
+      "category": "alimentos",
+      "sub": "Despensa",
+      "name": "All Rice Rebozador de Arroz Integral Con Sal 250g",
+      "desc": "Libre de gluten, 0% colesterol, fuente de fibra.",
+      "price": 3000,
+      "img": "img/alimentos/allrice-rebozador-consal.jpg"
+    },
+    {
+      "id": "al-chipamix",
+      "category": "alimentos",
+      "sub": "Despensa",
+      "name": "Chipá Mix Doña Pacha 400g",
+      "desc": "Premezcla para chipá libre de gluten.",
+      "price": 5500,
+      "img": "img/alimentos/chipa-mix-donapacha.jpg"
+    },
+    {
+      "id": "al-zannascoco",
+      "category": "alimentos",
+      "sub": "Snacks y Dulces",
+      "name": "Zanna's Barrita Coco & Cacao",
+      "desc": "Barrita de proteínas vegetales.",
+      "price": 1000,
+      "img": "img/alimentos/zannas-barritas.jpg"
+    },
+    {
+      "id": "al-zannasarandanos",
+      "category": "alimentos",
+      "sub": "Snacks y Dulces",
+      "name": "Zanna's Barrita Arándanos",
+      "desc": "Barrita de proteínas vegetales.",
+      "price": 1000,
+      "img": "img/alimentos/zannas-barritas.jpg"
+    },
+    {
+      "id": "al-zannasalmendras",
+      "category": "alimentos",
+      "sub": "Snacks y Dulces",
+      "name": "Zanna's Barrita Almendras & Sal Marina",
+      "desc": "Barrita de proteínas vegetales.",
+      "price": 1000,
+      "img": "img/alimentos/zannas-barritas.jpg"
+    },
+    {
+      "id": "al-allricerebozadorsinsal",
+      "category": "alimentos",
+      "sub": "Despensa",
+      "name": "All Rice Rebozador de Arroz Integral Sin Sal 250g",
+      "desc": "Libre de gluten, 0% colesterol, 0% sodio, fuente de fibra.",
+      "price": 3000,
+      "img": "img/alimentos/allrice-rebozador-sinsal.jpg"
+    },
+    {
+      "id": "al-avenaarrollada",
+      "category": "alimentos",
+      "sub": "Secos y Semillas",
+      "name": "Armonía Avena Arrollada (a granel)",
+      "desc": "Avena arrollada a granel.",
+      "price": 2800,
+      "img": "img/alimentos/armonia-avena-arrollada.jpg"
+    },
+    {
+      "id": "al-mixsecossemillas",
+      "category": "alimentos",
+      "sub": "Secos y Semillas",
+      "name": "Armonía Mix de Frutos Secos y Semillas (a granel)",
+      "desc": "Mix de frutos secos y semillas a granel.",
+      "price": 6500,
+      "img": "img/alimentos/armonia-mix-secos-semillas.jpg"
+    },
+    {
+      "id": "al-borispastamani",
+      "category": "alimentos",
+      "sub": "Aceites y Untables",
+      "name": "Boris Pasta de Maní 400g",
+      "desc": "Pasta de maní clásica.",
+      "price": 4500,
+      "img": "img/alimentos/boris-pasta-mani.jpg"
+    },
+    {
+      "id": "al-jugoarandano",
+      "category": "alimentos",
+      "sub": "Líquidos y Bebidas",
+      "name": "Cuarto Creciente Jugo de Arándano Con Pulpa 1500ml",
+      "desc": "Endulzado, con pulpa. Industria argentina.",
+      "price": 6500,
+      "img": "img/alimentos/cuartocreciente-jugo-arandano.jpg"
+    },
+    {
+      "id": "al-kefirfrutosrojos",
+      "category": "alimentos",
+      "sub": "Líquidos y Bebidas",
+      "name": "Vitafir Kéfir de Agua sabor Frutos Rojos 1000ml",
+      "desc": "Elaboración artesanal.",
+      "price": 7500,
+      "img": "img/alimentos/vitafir-kefir.jpg"
+    },
+    {
+      "id": "al-kefirlimonjengibre",
+      "category": "alimentos",
+      "sub": "Líquidos y Bebidas",
+      "name": "Vitafir Kéfir de Agua Limón con Menta y Jengibre 910ml",
+      "desc": "Elaboración artesanal.",
+      "price": 7000,
+      "img": "img/alimentos/vitafir-kefir.jpg"
+    },
+    {
+      "id": "al-donamagdalena",
+      "category": "alimentos",
+      "sub": "Aceites y Untables",
+      "name": "Doña Magdalena Dulce de Leche sin Azúcar Agregado 400g",
+      "desc": "Con calcio y vitamina D, endulzado con stevia.",
+      "price": 5000,
+      "img": "img/alimentos/donamagdalena-dulcedeleche.jpg"
+    },
+    {
+      "id": "al-profeciabombones",
+      "category": "alimentos",
+      "sub": "Snacks y Dulces",
+      "name": "Profecía Bombones Artesanales Dulce de Membrillo Rubio (30g c/u)",
+      "desc": "Libre de gluten. Producto de San Juan.",
+      "price": 1200,
+      "img": "img/alimentos/profecia-bombones-membrillo.jpg"
+    },
+    {
+      "id": "al-grangerpancakes",
+      "category": "alimentos",
+      "sub": "Despensa",
+      "name": "Granger Keto Pancakes & Waffles 200g",
+      "desc": "Hechos con almendras y coco. Alto contenido de fibra, sin gluten.",
+      "price": 8500,
+      "img": "img/alimentos/granger-keto-pancakes.jpg"
+    },
+    {
+      "id": "al-grangerproteicos",
+      "category": "alimentos",
+      "sub": "Despensa",
+      "name": "Granger Pancakes Proteicos sabor Chocolate",
+      "desc": "Hechos con avena, clara de huevo y cacao puro. 15g de proteína por porción.",
+      "price": 8500,
+      "img": "img/alimentos/granger-pancakes-proteicos.jpg"
+    },
+    {
+      "id": "al-mielalfalfa",
+      "category": "alimentos",
+      "sub": "Aceites y Untables",
+      "name": "Miel Pura Artesanal sabor Alfalfa 500g",
+      "desc": "Miel pura artesanal.",
+      "price": 9000,
+      "img": "img/alimentos/miel-pura-artesanal.jpg"
+    },
+    {
+      "id": "al-mielalgarrobo",
+      "category": "alimentos",
+      "sub": "Aceites y Untables",
+      "name": "Miel Pura Artesanal sabor Algarrobo 500g",
+      "desc": "Miel pura artesanal.",
+      "price": 9000,
+      "img": "img/alimentos/miel-pura-artesanal.jpg"
+    },
+    {
+      "id": "al-mieldemonte",
+      "category": "alimentos",
+      "sub": "Aceites y Untables",
+      "name": "Miel Pura Artesanal De Monte 500g",
+      "desc": "Miel pura artesanal.",
+      "price": 9000,
+      "img": "img/alimentos/miel-pura-artesanal.jpg"
+    },
+    {
+      "id": "al-mieldeazahar",
+      "category": "alimentos",
+      "sub": "Aceites y Untables",
+      "name": "Miel Pura Artesanal De Azahar 500g",
+      "desc": "Miel pura artesanal.",
+      "price": 9000,
+      "img": "img/alimentos/miel-pura-artesanal.jpg"
+    },
+    {
+      "id": "sp-geonatflex",
+      "category": "suplementos",
+      "sub": "Articulaciones y Movilidad",
+      "name": "Geonat Flex Advanced Tipo II 375g",
+      "desc": "Colágeno tipo II no desnaturalizado, colágeno hidrolizado, ácido hialurónico, vitaminas C y D, magnesio y cúrcuma. 7 en 1 para flexibilidad, movilidad y fuerza articular.",
+      "price": 31000,
+      "img": "img/suplementos/geonat-flex.jpg"
+    },
+    {
+      "id": "sp-propoleo",
+      "category": "suplementos",
+      "sub": "Defensas e Inmunidad",
+      "name": "Natier Propóleo Plus + Cúrcuma, Jengibre y Té 250cc",
+      "desc": "Bebible a base de extracto de propóleo y vitamina C. Ayuda a las defensas. Libre de gluten.",
+      "price": 14500,
+      "img": "img/suplementos/propoleo-natier.jpg"
+    },
+    {
+      "id": "sp-cabellopielunas",
+      "category": "suplementos",
+      "sub": "Belleza y Piel",
+      "name": "VitaminWay Cabello, Piel y Uñas x30 cápsulas",
+      "desc": "Colágeno hidrolizado con vitaminas y minerales para nutrición, fortaleza y vitalidad.",
+      "price": 12500,
+      "img": "img/suplementos/vitaminway-cabello-piel-unas.jpg"
+    },
+    {
+      "id": "sp-coenzimaq10",
+      "category": "suplementos",
+      "sub": "Antioxidantes y Anti-age",
+      "name": "VitaminWay Coenzima Q10 x30 cápsulas",
+      "desc": "Con colágeno hidrolizado y vitamina E. Ingredientes anti-age que ayudan a proteger la piel.",
+      "price": 15500,
+      "img": "img/suplementos/vitaminway-coenzima-q10.jpg"
+    },
+    {
+      "id": "sp-k2d3",
+      "category": "suplementos",
+      "sub": "Huesos y Sistema Cardiovascular",
+      "name": "VitaminWay K2 + D3 x30 cápsulas",
+      "desc": "Con cúrcuma y colágeno tipo II. Nutrición ósea y apoyo al sistema cardiovascular.",
+      "price": 17500,
+      "img": "img/suplementos/vitaminway-k2-d3.jpg"
+    },
+    {
+      "id": "sp-magnesio",
+      "category": "suplementos",
+      "sub": "Energía y Vitalidad",
+      "name": "VitaminWay Triple Magnesio +50 x30 cápsulas",
+      "desc": "Triple magnesio + multivitaminas veganas. Plus de energía y vitalidad.",
+      "price": 14700,
+      "img": "img/suplementos/vitaminway-magnesio.jpg"
+    },
+    {
+      "id": "sp-jengibre",
+      "category": "suplementos",
+      "sub": "Digestivo y Antiinflamatorio",
+      "name": "Organikal Jengibre en Polvo 50g",
+      "desc": "Jengibre certificado USDA-NOP. Contribuye a mejorar desórdenes gastrointestinales, estimula las defensas naturalmente y tiene comprobada acción antiinflamatoria.",
+      "price": 8000,
+      "img": "img/suplementos/organikal-jengibre.jpg"
+    },
+    {
+      "id": "sp-cafeinaenergy",
+      "category": "suplementos",
+      "sub": "Energía y Vitalidad",
+      "name": "VitaminWay Cafeína Energy+ x30 cápsulas",
+      "desc": "Con ginseng, guaraná y vitaminas del complejo B. Un plus de energía para mayor rendimiento. Producto vegano.",
+      "price": 11500,
+      "img": "img/suplementos/vitaminway-cafeina-energy.jpg"
+    },
+    {
+      "id": "sp-nadresveratrol",
+      "category": "suplementos",
+      "sub": "Antioxidantes y Anti-age",
+      "name": "Geonat NAD+ Resveratrol x30 comprimidos",
+      "desc": "A base de nicotinamida, D-ribosa, resveratrol, vitaminas C y E, coenzima Q10 y selenio. Energía celular y longevidad.",
+      "price": 31500,
+      "img": "img/suplementos/geonat-nad-resveratrol.jpg"
+    },
+    {
+      "id": "sp-geomagnesium",
+      "category": "suplementos",
+      "sub": "Energía y Vitalidad",
+      "name": "Geonat GeoMagnesium Bisglicinato 1400 Quelatado x60 comprimidos",
+      "desc": "A base de magnesio, vitamina B1, B6 y B12. Libre de gluten.",
+      "price": 18000,
+      "img": "img/suplementos/geonat-geomagnesium.jpg"
+    },
+    {
+      "id": "sp-magnesiosport",
+      "category": "suplementos",
+      "sub": "Rendimiento Deportivo",
+      "name": "VitaminWay Magnesio Sport x30 cápsulas",
+      "desc": "Con aminoácidos y vitaminas: magnesio, L-arginina, isomaltulosa, L-citrulina, taurina y vitaminas B1, B2, B3 y B6. Energía y rendimiento físico.",
+      "price": 8000,
+      "img": "img/suplementos/vitaminway-magnesio-sport.jpg"
+    },
+    {
+      "id": "sp-colagenoflex",
+      "category": "suplementos",
+      "sub": "Articulaciones y Movilidad",
+      "name": "VitaminWay Colágeno Flex x30 cápsulas",
+      "desc": "Colágeno Tipo II + Vitamina K2, con cúrcuma, ácido hialurónico y vitaminas C y D. Para articulaciones y huesos, sólo 1 cápsula por día.",
+      "price": 16500,
+      "img": "img/suplementos/vitaminway-colageno-flex.jpg"
+    },
+    {
+      "id": "sp-hierroquelato",
+      "category": "suplementos",
+      "sub": "Energía y Vitalidad",
+      "name": "VitaminWay Hierro Quelato x30 cápsulas vegetales",
+      "desc": "Mayor biodisponibilidad y tolerancia gástrica. Con ácido fólico y vitamina C. Cápsulas gastrorresistentes.",
+      "price": 21500,
+      "img": "img/suplementos/vitaminway-hierro-quelato.jpg"
+    },
+    {
+      "id": "sp-citratomagnesio",
+      "category": "suplementos",
+      "sub": "Energía y Vitalidad",
+      "name": "VitaminWay Citrato de Magnesio x30 cápsulas",
+      "desc": "Máxima absorción, con vitamina D. Para músculos y huesos, balance digestivo y sistema nervioso.",
+      "price": 12000,
+      "img": "img/suplementos/vitaminway-citrato-magnesio.jpg"
+    },
+    {
+      "id": "sp-vitaminaczinc",
+      "category": "suplementos",
+      "sub": "Defensas e Inmunidad",
+      "name": "VitaminWay Vitamina C con Zinc 500mg x60 cápsulas",
+      "desc": "Apoyo al sistema inmune. Libre de gluten y sin TACC.",
+      "price": 21000,
+      "img": "img/suplementos/vitaminway-vitamina-c-zinc.jpg"
+    },
+    {
+      "id": "sp-resveratrolnatier",
+      "category": "suplementos",
+      "sub": "Antioxidantes y Anti-age",
+      "name": "Natier Resveratrol Concentrado x50 cápsulas",
+      "desc": "Rejuvenecedor celular a base de Vitis vinifera, resveratrol y vitamina C. Antioxidante y 100% vegetal.",
+      "price": 22500,
+      "img": "img/suplementos/natier-resveratrol.jpg"
+    },
+    {
+      "id": "sp-probioticos",
+      "category": "suplementos",
+      "sub": "Digestivo y Antiinflamatorio",
+      "name": "VitaminWay Probióticos + Prebiótico 1K x30 cápsulas",
+      "desc": "Mil millones de probióticos + prebiótico en cápsulas vegetales. Libre de gluten.",
+      "price": 16000,
+      "img": "img/suplementos/vitaminway-probioticos-prebiotico.jpg"
+    },
+    {
+      "id": "sp-curcumaplus",
+      "category": "suplementos",
+      "sub": "Digestivo y Antiinflamatorio",
+      "name": "Geonat Cúrcuma Plus x30 cápsulas",
+      "desc": "Cúrcuma + pimienta negra + canela + jengibre y vitamina E. Libre de gluten.",
+      "price": 11000,
+      "img": "img/suplementos/geonat-curcuma-plus.jpg"
+    },
+    {
+      "id": "sp-curcumajengibre",
+      "category": "suplementos",
+      "sub": "Articulaciones y Movilidad",
+      "name": "VitaminWay Cúrcuma + Jengibre x30 cápsulas",
+      "desc": "Con pimienta negra y vitaminas C y E. Para articulaciones, acción antioxidante.",
+      "price": 12500,
+      "img": "img/suplementos/vitaminway-curcuma-jengibre.jpg"
+    },
+    {
+      "id": "sp-geonattreonato",
+      "category": "suplementos",
+      "sub": "Salud Mental y Memoria",
+      "name": "Geonat Magnesio Treonato 1000 x60 comprimidos",
+      "desc": "Con fosfatidilserina y vitaminas D3, C y B6. Favorece la función cognitiva, calma la mente en momentos de estrés y optimiza el enfoque, la concentración y la memoria.",
+      "price": 22500,
+      "img": "img/suplementos/geonat-magnesio-treonato.jpg"
+    },
+    {
+      "id": "sp-natierfucus",
+      "category": "suplementos",
+      "sub": "Control de Peso",
+      "name": "Natier Fucus Concentrado x50 cápsulas",
+      "desc": "Rico en yodo y fibra. Cuida la tiroides y ayuda al control de peso, con efecto de saciedad, disminuye el colesterol, estimula la tiroides y reduce la acidez y el reflujo.",
+      "price": 21500,
+      "img": "img/suplementos/natier-fucus-concentrado.jpg"
+    },
+    {
+      "id": "sp-natiermaca",
+      "category": "suplementos",
+      "sub": "Energía y Vitalidad",
+      "name": "Natier Maca Peruana Concentrada x50 cápsulas",
+      "desc": "Lepidium peruvianum biodisponible y 100% vegetal. Mejora los niveles de energía, contribuye a una mejor gestión del estrés físico y mental y mejora la respuesta cognitiva.",
+      "price": 21500,
+      "img": "img/suplementos/natier-maca-concentrada.jpg"
+    },
+    {
+      "id": "sp-macanegrapolvo",
+      "category": "suplementos",
+      "sub": "Energía y Vitalidad",
+      "name": "Maca Negra en Polvo 150g",
+      "desc": "Complemento nutricional micropulverizado y tostado. Mejora los niveles de energía, contribuye a una mejor gestión del estrés físico y mental y mejora la respuesta cognitiva.",
+      "price": 21500,
+      "img": "img/suplementos/maca-negra-polvo.jpg"
+    },
+    {
+      "id": "sp-vitaminwayhialuronico",
+      "category": "suplementos",
+      "sub": "Belleza y Piel",
+      "name": "VitaminWay Ácido Hialurónico x30 cápsulas",
+      "desc": "Con coenzima Q10 y colágeno hidrolizado. Ayuda a hidratar la piel y suavizar las arrugas, favorece la regeneración del tejido cutáneo y mejora la firmeza y luminosidad de la piel.",
+      "price": 24500,
+      "img": "img/suplementos/vitaminway-acido-hialuronico.jpg"
+    },
+    {
+      "id": "sp-vitaminwayspirulina",
+      "category": "suplementos",
+      "sub": "Control de Peso",
+      "name": "VitaminWay Spirulina Siluett x60 cápsulas",
+      "desc": "Con Garcinia y Café Verde. Colabora con la pérdida de peso, ayuda a reducir el apetito y ayuda a reducir la formación de grasa.",
+      "price": 17000,
+      "img": "img/suplementos/vitaminway-spirulina-siluett.jpg"
+    }
+  ]
+}
