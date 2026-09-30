@@ -10,33 +10,6 @@
       "img": "https://upload.wikimedia.org/wikipedia/commons/d/d1/MixedNutsInGlassBowl.JPG"
     },
     {
-      "id": "al-quinoabowl",
-      "category": "alimentos",
-      "sub": "Comidas Preparadas",
-      "name": "Bowl de Quinoa y Vegetales",
-      "desc": "Quinoa real, vegetales frescos y frutos secos. Listo para disfrutar.",
-      "price": 5400,
-      "img": "https://upload.wikimedia.org/wikipedia/commons/6/64/Healthy_quinoa_salad_with_dried_fruit.jpg"
-    },
-    {
-      "id": "al-ensaladafresca",
-      "category": "alimentos",
-      "sub": "Comidas Preparadas",
-      "name": "Ensalada Fresca de Estación",
-      "desc": "Hojas verdes, vegetales de estación y semillas. Fresca y liviana.",
-      "price": 4200,
-      "img": "https://upload.wikimedia.org/wikipedia/commons/4/47/Healthy_salad_bowl_%2842231145040%29.jpg"
-    },
-    {
-      "id": "al-tostadapalta",
-      "category": "alimentos",
-      "sub": "Comidas Preparadas",
-      "name": "Tostada Integral de Palta y Huevo",
-      "desc": "Pan integral, palta natural y huevo. Ideal para un desayuno fit.",
-      "price": 3800,
-      "img": "https://upload.wikimedia.org/wikipedia/commons/d/db/Skinny-Fried-Egg-and-Avocado-Toast-Perfect-breakfast_%2835555668870%29.jpg"
-    },
-    {
       "id": "al-aceitecoco",
       "category": "alimentos",
       "sub": "Aceites y Untables",
@@ -51,7 +24,7 @@
       "sub": "Líquidos y Bebidas",
       "name": "Tratenfu Leche de Coco Original 1L",
       "desc": "Bebida vegetal a base de coco, como hecha en casa. Fortificada con calcio y vitaminas E, A, D2, B2 y B12. Libre de gluten, sin TACC.",
-      "price": 5800,
+      "price": 4800,
       "img": "img/alimentos/leche-coco-tratenfu.jpg"
     },
     {
@@ -69,7 +42,7 @@
       "sub": "Aceites y Untables",
       "name": "Entrenuts Aceite de Coco Neutro 360cc",
       "desc": "Sin sabor ni aroma. Vegano, sin gluten y 100% natural.",
-      "price": 8500,
+      "price": 9000,
       "img": "img/alimentos/entrenuts-aceite-coco-neutro.jpg"
     },
     {
@@ -78,16 +51,16 @@
       "sub": "Aceites y Untables",
       "name": "Entrenuts Aceite de Coco Virgen 200cc",
       "desc": "Primer prensado en frío. Vegano, sin gluten y 100% natural.",
-      "price": 6000,
+      "price": 6500,
       "img": "img/alimentos/entrenuts-aceite-coco-virgen.jpg"
     },
     {
       "id": "al-mixfrutossecos-granel",
       "category": "alimentos",
       "sub": "Secos y Semillas",
-      "name": "Armonía Mix de Frutos Secos (a granel)",
+      "name": "Armonía Mix de Frutos Secos con pasas 1kg",
       "desc": "Selección de frutos secos surtidos de Armonía Market.",
-      "price": 7000,
+      "price": 8500,
       "img": "img/alimentos/armonia-mix-frutos-secos.jpg"
     },
     {
