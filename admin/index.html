@@ -20,5 +20,92 @@
     }
   </script>
   <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+
+  <!-- Aviso de publicación: muestra al cliente cuándo su cambio ya está online -->
+  <style>
+    #aviso-publicacion {
+      position: fixed; right: 20px; bottom: 20px; z-index: 99999;
+      max-width: 340px; padding: 16px 18px; border-radius: 12px;
+      font: 15px/1.4 system-ui, -apple-system, sans-serif;
+      box-shadow: 0 8px 24px rgba(0,0,0,.18); display: none;
+      background: #fff8e1; color: #5d4200; border: 1px solid #f3d27a;
+    }
+    #aviso-publicacion.listo { background: #e8f5e9; color: #1b5e20; border-color: #a5d6a7; }
+    #aviso-publicacion.error { background: #fdecea; color: #8a1c1c; border-color: #f5b5b0; }
+    #aviso-publicacion strong { display: block; margin-bottom: 4px; font-size: 16px; }
+    #aviso-publicacion a {
+      display: inline-block; margin-top: 10px; padding: 7px 14px; border-radius: 8px;
+      background: #2e7d32; color: #fff; text-decoration: none; font-weight: 600;
+    }
+    #aviso-publicacion button {
+      position: absolute; top: 6px; right: 10px; border: 0; background: none;
+      font-size: 20px; cursor: pointer; color: inherit; opacity: .6;
+    }
+    #aviso-publicacion .spinner {
+      display: inline-block; width: 12px; height: 12px; margin-right: 6px;
+      border: 2px solid currentColor; border-right-color: transparent;
+      border-radius: 50%; animation: girar .8s linear infinite; vertical-align: -1px;
+    }
+    @keyframes girar { to { transform: rotate(360deg); } }
+  </style>
+  <div id="aviso-publicacion" role="status" aria-live="polite"></div>
+  <script>
+    (function () {
+      const aviso = document.getElementById("aviso-publicacion");
+      const INTERVALO_MS = 5000;
+      const LIMITE_MS = 5 * 60 * 1000;
+      let chequeo = null;
+
+      // Resumen de lo que importa ver en la página (nombre, precio, foto)
+      const firma = (products) =>
+        JSON.stringify((products || []).map((p) => [p.name, Number(p.price), p.img]));
+
+      function mostrar(estado, html) {
+        aviso.className = estado;
+        aviso.innerHTML = '<button aria-label="Cerrar">&times;</button>' + html;
+        aviso.style.display = "block";
+        aviso.querySelector("button").onclick = () => {
+          aviso.style.display = "none";
+        };
+      }
+
+      function esperarPublicacion(esperado) {
+        clearInterval(chequeo);
+        const inicio = Date.now();
+        mostrar("", '<strong><span class="spinner"></span>Publicando tu cambio…</strong>' +
+          "Guardado correctamente. En aproximadamente 1 minuto se verá en la página.");
+
+        chequeo = setInterval(async () => {
+          try {
+            const res = await fetch("/content/products.json?t=" + Date.now(), { cache: "no-store" });
+            const online = await res.json();
+            if (firma(online.products) === esperado) {
+              clearInterval(chequeo);
+              mostrar("listo", "<strong>✅ ¡Listo! Ya está en la página</strong>" +
+                "Tus clientes ya ven los cambios." +
+                '<br><a href="/" target="_blank" rel="noopener">Ver la página</a>');
+            }
+          } catch (e) { /* reintenta en el próximo ciclo */ }
+
+          if (Date.now() - inicio > LIMITE_MS) {
+            clearInterval(chequeo);
+            mostrar("error", "<strong>Está tardando más de lo normal</strong>" +
+              "El cambio quedó guardado. Revisá la página en unos minutos; " +
+              "si no aparece, avisale a quien administra el sitio.");
+          }
+        }, INTERVALO_MS);
+      }
+
+      if (window.CMS) {
+        window.CMS.registerEventListener({
+          name: "postSave",
+          handler: ({ entry }) => {
+            const data = entry.get("data").toJS();
+            esperarPublicacion(firma(data.products));
+          },
+        });
+      }
+    })();
+  </script>
 </body>
 </html>

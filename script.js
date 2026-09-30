@@ -9,7 +9,7 @@
 
   async function loadProducts() {
     try {
-      const res = await fetch("content/products.json");
+      const res = await fetch("content/products.json", { cache: "no-cache" });
       const data = await res.json();
       PRODUCTS = (data.products || []).map((p, i) => ({
         ...p,
