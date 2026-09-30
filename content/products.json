@@ -67,7 +67,7 @@
       "id": "al-sesamo",
       "category": "alimentos",
       "sub": "Secos y Semillas",
-      "name": "Armonía Sésamo (a granel)",
+      "name": "Armonía Sésamo 100gr",
       "desc": "Semillas de sésamo a granel.",
       "price": 2500,
       "img": "img/alimentos/armonia-sesamo-lino.jpg"
@@ -76,7 +76,7 @@
       "id": "al-lino",
       "category": "alimentos",
       "sub": "Secos y Semillas",
-      "name": "Armonía Lino (a granel)",
+      "name": "Armonía Lino 100gr",
       "desc": "Semillas de lino a granel.",
       "price": 2500,
       "img": "img/alimentos/armonia-sesamo-lino.jpg"
@@ -85,7 +85,7 @@
       "id": "al-chia",
       "category": "alimentos",
       "sub": "Secos y Semillas",
-      "name": "Armonía Chía (a granel)",
+      "name": "Armonía Chía 100gr",
       "desc": "Semillas de chía a granel.",
       "price": 3500,
       "img": "img/alimentos/armonia-chia.jpg"
@@ -98,24 +98,6 @@
       "desc": "Mix de semillas (lino, sésamo y girasol) a granel.",
       "price": 3000,
       "img": "img/alimentos/armonia-mix-semillas.jpg"
-    },
-    {
-      "id": "al-ciruelaspasas",
-      "category": "alimentos",
-      "sub": "Secos y Semillas",
-      "name": "Armonía Ciruelas Pasas (a granel)",
-      "desc": "Ciruelas deshidratadas a granel.",
-      "price": 4500,
-      "img": "img/alimentos/armonia-ciruelas-pasas.jpg"
-    },
-    {
-      "id": "al-orejones",
-      "category": "alimentos",
-      "sub": "Secos y Semillas",
-      "name": "Armonía Orejones (a granel)",
-      "desc": "Fruta deshidratada a granel.",
-      "price": 5500,
-      "img": "img/alimentos/armonia-orejones.jpg"
     },
     {
       "id": "al-manichocolate",
